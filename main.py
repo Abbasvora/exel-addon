@@ -46,8 +46,8 @@ date_format = workbook.add_format({
 
 ############################ file header format   ##########################################
 worksheet.set_column('B:B', 15)
-worksheet.merge_range('A1:H1', 'M/S. BADRUDDIN MULLA SHAMSUDDIN AND SONS', cell_format)
-worksheet.merge_range('A2:H2', 'SADAR BAZAR, RAIPUR', cell_format)
+worksheet.merge_range('A1:H1', 'client name', cell_format)
+worksheet.merge_range('A2:H2', 'address', cell_format)
 worksheet.merge_range('A3:H3', 'SALES DETAILS', cell_format)
 worksheet.merge_range('A4:H4', f'FROM {date_1[0]} T0 {date_1[1]}', cell_format)
 worksheet.merge_range('A5:H5', 'GST NUMBER :', cell_format)
